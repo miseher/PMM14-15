@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent" android:layout_height="fill_parent"
+    android:background="@drawable/fondoformulario"
+    >
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cancelar"
+        android:id="@+id/btnCancelar"
+        android:background="#F5F2BE"
+        android:layout_alignTop="@+id/btnGuardar"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="80dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Guardar"
+        android:background="#F5F2BE"
+        android:id="@+id/btnGuardar"
+        android:layout_marginTop="84dp"
+        android:layout_below="@+id/editTextDes"
+        android:layout_toEndOf="@+id/textView3" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Descripcion:"
+        android:id="@+id/textView"
+        android:layout_above="@+id/editTextDes"
+        android:layout_alignParentStart="true" />
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textMultiLine"
+        android:gravity="top"
+        android:ems="10"
+        android:id="@+id/editTextDes"
+        android:background="@drawable/edittext_redondeado"
+        android:elegantTextHeight="false"
+        android:editable="false"
+        android:height="100dp"
+        android:layout_centerVertical="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignEnd="@+id/editTextaula" />
+    <EditText
+        android:id="@+id/editTextaula"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/edittext_redondeado"
+
+        android:inputType="textEmailAddress"
+        android:padding="10dp"
+        android:singleLine="true"
+        android:textColor="@color/input_login"
+        android:textColorHint="@color/input_login_hint"
+        android:layout_above="@+id/textView"
+        android:layout_alignParentStart="true"
+        android:layout_alignEnd="@+id/btnCancelar" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Nº de Parte:"
+        android:id="@+id/textView2"
+        android:layout_above="@+id/editTextParte"
+        android:layout_alignEnd="@+id/textView" />
+
+
+    <EditText
+        android:id="@+id/editTextParte"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/edittext_redondeado"
+
+        android:inputType="textEmailAddress"
+        android:padding="10dp"
+        android:singleLine="true"
+        android:textColor="@color/input_login"
+        android:textColorHint="@color/input_login_hint"
+        android:layout_above="@+id/textView3"
+        android:layout_alignParentStart="true"
+        android:layout_alignEnd="@+id/editTextaula" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Aula:"
+        android:id="@+id/textView3"
+        android:layout_above="@+id/editTextaula"
+        android:layout_alignParentStart="true" />
+
+</RelativeLayout>

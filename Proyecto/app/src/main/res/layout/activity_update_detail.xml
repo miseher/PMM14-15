@@ -1,0 +1,133 @@
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/tableLayout1"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/fondoformulario"
+    >
+
+    <TableRow
+        android:id="@+id/tableRow1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="5dip" >
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:gravity="center"
+            android:text="ACTUALIZAR PARTE"
+            android:layout_span="3"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textStyle="bold|italic" />
+
+    </TableRow>
+
+    <View
+        android:layout_height="1dip"
+        android:background="#ffcc1d28" />
+
+    <TableRow
+        android:id="@+id/tableRow2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="5dip" >
+
+        <TextView
+            android:id="@+id/textView2"
+            android:text="ID Parte : "
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/txtParteIDupdate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+             />
+
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/tableRow3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="5dip" >
+
+        <TextView
+            android:id="@+id/textView3"
+            android:text="Aula : "
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/txtAulaUpdate"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/edittext_redondeado"
+
+            android:inputType="textEmailAddress"
+            android:padding="10dp"
+            android:singleLine="true"
+            android:textColor="@color/input_login"
+            android:textColorHint="@color/input_login_hint"
+            android:layout_above="@+id/textView"
+            android:layout_alignParentStart="true"
+            android:layout_alignEnd="@+id/btnCancelar" />
+
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/tableRow4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="5dip" >
+
+        <TextView
+            android:id="@+id/textView4"
+            android:text="Descripcion : "
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textStyle="bold" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="textMultiLine"
+            android:gravity="top"
+            android:ems="10"
+            android:id="@+id/txtDescUpdate"
+            android:background="@drawable/edittext_redondeado"
+            android:elegantTextHeight="false"
+            android:editable="false"
+            android:height="100dp"
+            android:layout_centerVertical="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignEnd="@+id/editTextaula" />
+
+    </TableRow>
+
+    <LinearLayout
+        android:id="@+id/LinearLayout1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="5dip" >
+
+        <Button
+            android:id="@+id/btnActualizar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#F5F2BE"
+            android:text="Actualizar"
+            android:textStyle="bold" />
+        <Button
+            android:id="@+id/btnCancelUpdateDetail"
+            android:background="#F5F2BE"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Cancelar"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+</TableLayout>
+

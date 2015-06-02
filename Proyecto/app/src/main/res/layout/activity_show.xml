@@ -1,0 +1,64 @@
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/tableLayout1"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#2b8191e6"
+    >
+
+    <TableRow
+        android:id="@+id/tableRow1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="5dip" >
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:gravity="center"
+            android:text="Incidencias : "
+            android:layout_span="1"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textStyle="bold|italic" />
+
+    </TableRow>
+
+    <View
+        android:layout_height="1dip"
+        android:background="#ffcc1d28" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.1">
+
+        <ListView
+            android:id="@+id/listView1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        </ListView>
+
+    </LinearLayout>
+
+    <View
+        android:layout_height="1dip"
+        android:background="#ffcc1d28" />
+
+    <LinearLayout
+        android:id="@+id/LinearLayout1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="5dip" >
+
+        <Button
+            android:id="@+id/btnBack"
+            android:background="#F5F2BE"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Atras" />
+
+    </LinearLayout>
+
+</TableLayout>

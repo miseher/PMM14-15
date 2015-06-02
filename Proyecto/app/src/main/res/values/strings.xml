@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Proyecto</string>
+    <string name="hint_email">Email</string>
+    <string name="hint_password">Contraseña</string>
+    <string name="hint_name">Usuario</string>
+    <string name="btn_login">LOGIN</string>
+    <string name="btn_register">REGISTRO</string>
+    <string name="btn_link_to_register">No tienes cuenta? Registrate.</string>
+    <string name="btn_link_to_login">Ya estas registrado? Logueate!</string>
+    <string name="welcome">Welcome</string>
+    <string name="btn_logout">LOGOUT</string>
+    <string name="name">Fullname</string>
+    <string name="title_activity_main">MainActivity</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_add">AddActivity</string>
+    <string name="title_activity_show">show</string>
+    <string name="title_activity_detail">DetailActivity</string>
+
+    <string-array name="Menu">
+        <item>Editar</item>
+        <item>Borrar</item>
+    </string-array>
+    <string name="title_activity_delete">DeleteActivity</string>
+    <string name="title_activity_update">UpdateActivity</string>
+    <string name="title_activity_update_detail">UpdateDetailActivity</string>
+    <string name="title_activity_prueba">pruebaActivity</string>
+
+</resources>
